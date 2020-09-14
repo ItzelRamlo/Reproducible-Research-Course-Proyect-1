@@ -1,0 +1,35 @@
+---
+title: "Reproducible Research Course Proyect 1"
+author: "Ramírez López Elsa Itzel"
+date: "14/9/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Reproducible Research Course Proyect 1 
+
+This is a submission for Reproducible Research Course Proyect 1. For more details taje a look at [here] (https://github.com/ItzelRamlo/RepData_PeerAssessment1/blob/master/README.md). Also there you can find the link to download the dataset
+
+## Loadin the Data 
+In this section you can find the code needed to  read and load the data por further analysis.
+
+```{r}
+#load package
+library(ggplot2)
+#read the data. Here I've write the url for my workdirectory, soy you should change it. Ypu can find the url for ypur own work directory using **getwd()**
+activity <- read.csv('C:/Users/ELSA LOPEZ/Documents/R/Reproducible-Research-Course-Proyect-1/activity.csv')
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
